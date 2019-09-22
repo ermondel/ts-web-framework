@@ -1,0 +1,23 @@
+{
+  "name": "udemy-ts-web-framework",
+  "version": "1.0.0",
+  "description": "udemy ts web framework",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermondel/udemy-ts-web-framework.git"
+  },
+  "author": "ermondel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ermondel/udemy-ts-web-framework/issues"
+  },
+  "homepage": "https://github.com/ermondel/udemy-ts-web-framework#readme"
+}
