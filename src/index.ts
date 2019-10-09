@@ -6,12 +6,12 @@ import { User } from './models/User';
 
 const user = new User({ name: 'new record', age: 0 });
 
-// user.save();
+console.log(user.get('name'));
 
-user.events.on('change', () => {
+user.on('change', () => {
   console.log('Change #1');
 });
-user.events.on('change', () => {
+user.on('change', () => {
   console.log('Change #2');
 });
 // user.on('save', () => {
